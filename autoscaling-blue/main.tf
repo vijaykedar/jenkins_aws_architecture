@@ -21,9 +21,9 @@ module "autoscaling" {
   health_check_grace_period = 30
 
   launch_template_name        = "lt-blue"
-  image_id          = "ami-0836ed1f613068bd6"
+  image_id          = "ami-044471a92a9411d23"
   key_name          = "wezvatech2025"
-  instance_type     = "t3.micro"
+  instance_type     = "t2.small"
   security_groups   = ["sg-0fed46a4bd7b55975"]
 }
 
